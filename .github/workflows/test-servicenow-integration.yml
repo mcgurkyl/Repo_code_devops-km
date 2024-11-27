@@ -1,0 +1,32 @@
+name: Test Code Integration
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Build
+      run: |
+        echo "Building the application..."
+        sleep 2
+        echo "Build complete!"
+
+  test:
+    needs: build
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout Code
+      uses: actions/checkout@v3
+
+    - name: Run Tests
+      run: |
+        echo "Running tests..."
+        sleep 2
+        echo "Tests successful!"
