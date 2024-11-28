@@ -14,7 +14,7 @@ jobs:
 
     - name: Build
       run: |
-        echo "Building the application..."
+        echo "Building the application2..."
         sleep 2
         echo "Build complete!"
 
@@ -27,6 +27,6 @@ jobs:
 
     - name: Run Tests
       run: |
-        echo "Running tests1..."
+        echo "Running tests..."
         sleep 2
         echo "Tests successful!"
