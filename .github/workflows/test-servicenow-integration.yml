@@ -14,7 +14,7 @@ jobs:
 
     - name: Build
       run: |
-        echo "Building the application62..."
+        echo "Building the application662..."
         sleep 2
         echo "Build complete!"
 
