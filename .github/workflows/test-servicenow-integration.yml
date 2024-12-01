@@ -27,6 +27,6 @@ jobs:
 
     - name: Run Tests
       run: |
-        echo "Running tests..."
+        echo "Running teskjllkts..."
         sleep 2
         echo "Tests successful!"
