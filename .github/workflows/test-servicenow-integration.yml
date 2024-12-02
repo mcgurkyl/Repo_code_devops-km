@@ -14,9 +14,9 @@ jobs:
 
     - name: Build
       run: |
-        echo "Building the applicatigcvbxcvxcvbhjkgjkhk,n662..."
+        echo "Building the applicatigcvbxcvdfvssvxcvbhjkgjkhk,n662..."
         sleep 2
-        echo "Build complete!"
+        echo "Build complete!!"
 
   test:
     needs: build
@@ -27,6 +27,6 @@ jobs:
 
     - name: Run Tests
       run: |
-        echo "Running teskjlxcvbxcvxcvblkts..."
+        echo "Running teskjlxcvbxcvsfvxcvblkts..."
         sleep 1
         echo "Tests successful!"
